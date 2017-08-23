@@ -2,7 +2,7 @@
 # This Dockerfile builds a dev container to run this project on a CentOS Linux distro
 ################################################################################################
 # Base image
-FROM wpmr/go-docker:latest
+FROM wpmr/go-docker
 
 # Maintainer
 MAINTAINER Will Rowe <will.rowe@stfc.ac.uk>

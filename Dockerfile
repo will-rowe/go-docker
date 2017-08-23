@@ -15,6 +15,9 @@ RUN yum install -y \
 	wget \
 	openmpi \
 	openmpi-devel \
+	glibc-devel.i686 \
+	libgcc.i686 \
+  libstdc++-devel.i686 \
 	yum -y clean all
 
 ################################################################################################
